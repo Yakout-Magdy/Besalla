@@ -144,11 +144,12 @@
                     <form action="{{ route('dashboard.login') }}" method="POST">
                         @csrf
 
-                        <!-- email Field -->
+                        <!-- Phone Field -->
                         <div class="form-group phone-group mb-4">
-                            <label for="email" class="form-label mb-2"> البريد الالكتروني</label>
-                            <input type="text" id="email" name="email" class="form-control text-right"
-                                placeholder="email">
+                            <label for="phone" class="form-label mb-2">رقم الجوال</label>
+                            <span class="phone-prefix">🇸🇦 +966</span>
+                            <input type="text" id="phone" name="phone" class="form-control text-right"
+                                placeholder="5XXXXXXX">
                         </div>
 
 
